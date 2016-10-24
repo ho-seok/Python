@@ -1,5 +1,12 @@
 ﻿#!/bin/bash
 
+# bypassuac 설치 시 칼리리눅스 2.0버전은 경로가 다르기에 아래 경로로 수정해서 설치
+
+# 3. Copy bypassuac.rb to /usr/share/metasploit-framework/scripts/meterpreter/
+# (If you install by yourself, copy to  /opt/metasploit/apps/pro/scripts/meterpreter/)
+# 4. Copy uac folder to "/usr/share/metasploit-framework/data/exploits/"
+# (If you install by yourself, copy to /opt/metasploit/apps/pro/msf3/data/exploits/)
+
 echo ""
 echo "=========================================================================="
 echo "= Pentest Attack Machine Setup                                           ="
